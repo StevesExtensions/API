@@ -1,0 +1,14 @@
+plugins {
+    id "java"
+}
+
+group "gq.stev"
+version "0"
+
+repositories {
+
+}
+
+dependencies {
+
+}
