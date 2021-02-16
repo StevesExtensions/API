@@ -6,9 +6,9 @@ group "gq.stev"
 version "0"
 
 repositories {
-
+    mavenCentral()
 }
 
 dependencies {
-
+    compileOnly "com.google.guava:guava:30.1-jre"
 }
