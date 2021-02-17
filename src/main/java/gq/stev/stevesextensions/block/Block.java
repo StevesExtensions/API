@@ -12,4 +12,8 @@ public class Block {
     public Identifier getIdentifier() {
         return this.identifier;
     }
+
+    public BlockEntity createBlockEntity() {
+        return null;
+    }
 }

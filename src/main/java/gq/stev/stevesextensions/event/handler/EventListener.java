@@ -1,6 +1,7 @@
 package gq.stev.stevesextensions.event.handler;
 
 import gq.stev.stevesextensions.event.Event;
+import gq.stev.stevesextensions.event.loadingstage.PopulateRegistriesStageEvent;
 
 import java.util.ArrayList;
 import java.util.List;
