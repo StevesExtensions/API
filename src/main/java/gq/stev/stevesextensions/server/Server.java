@@ -1,6 +1,7 @@
 package gq.stev.stevesextensions.server;
 
 import gq.stev.stevesextensions.event.EventManager;
+import gq.stev.stevesextensions.extension.ExtensionManager;
 
 public abstract class Server {
     private static Server instance = null;
@@ -20,5 +21,8 @@ public abstract class Server {
     public abstract String getImplementationVersion();
     public abstract String getMinecraftVersion();
 
+    public abstract LoadingStage getLoadingStage();
+
     public abstract EventManager getEventManager();
+    public abstract ExtensionManager getExtensionManager();
 }
