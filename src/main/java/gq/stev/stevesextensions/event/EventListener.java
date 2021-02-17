@@ -1,5 +1,8 @@
 package gq.stev.stevesextensions.event;
 
+import gq.stev.stevesextensions.event.registry.RegistryEvent;
+import gq.stev.stevesextensions.extension.Extension;
+
 import java.util.ArrayList;
 import java.util.List;
 
